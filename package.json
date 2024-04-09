@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a project I am very passionate about. This is the backend of the My Social Network web project. The idea started from Facebook and I wanted to create a social network for people to interact with each other and be able to share photos and videos. I also want to create an additional section so users can share their favorite music tastes. Because I love music very much and music is a wonderful way to connect between people.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.2",
+    "aes-js": "^3.1.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "fast-average-color": "^9.4.0",
+    "firebase": "^10.6.0",
+    "jsonwebtoken": "^9.0.1",
+    "mailgen": "^2.0.28",
+    "megajs": "^1.1.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "q": "^1.5.1",
+    "redis": "^4.6.12",
+    "sequelize": "^6.33.0",
+    "sharp": "^0.32.6",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
