@@ -13,6 +13,8 @@ The project is still in the initial stages, I hope to complete the project as be
 # Bài viết
 - Người dùng có thể tạo bài viết vs caption, hình ảnh, video với số lượng nhỏ hơn 5. Sử dụng phương thức POST, có sử dụng middelware để kiểm tra phần hình ảnh và video đăng lên không có dung lượng quá 5mb. Nếu thành công, bài post sẽ được tạo. Nếu chỉ có caption thì sẽ trả về thông tin bài post mới, Nếu có hình ảnh, video thì chúng sẽ được tải lên firebase-storage xong lấy về danh sách link rồi insert vào bảng xong mới trả về bài post mới. Nếu gặp lỗi trong quá trình này, bài post được tạo kia sẽ bị xóa.
 - Có thể chỉnh sửa, xóa bài viết.
+# Comment và Like
+- Có comment và like trên bài viết, có trả lời bình luận và like bình luận
 # Story
 - Có thể tạo story bằng hình ảnh hoặc video (cũng có middleware để validate). Với hình ảnh phía server có tính toán màu trung bình để làm màu nền của story
 - Có thể xóa tin của mình
